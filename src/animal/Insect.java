@@ -14,4 +14,13 @@ public class Insect extends Animal {
         System.out.println("Ptica kljuca.");
     }
 
+    public int getNumberOfLegs() {
+        return numberOfLegs;
+    }
+
+    public void setNumberOfLegs(int numberOfLegs) {
+        this.numberOfLegs = numberOfLegs;
+    }
+
+    
 }

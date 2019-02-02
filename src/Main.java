@@ -2,6 +2,7 @@
 import animal.Bird;
 import animal.Eagle;
 import animal.Fish;
+import animal.Insect;
 
 public class Main {
 
@@ -25,10 +26,8 @@ public class Main {
 
         Insect fly = new Insect();
 
-        myBird.setFavouriteInsect(fly);
-        System.out.println("My bird's favourite insect has: " + myBird.getFavouriteInsert().getNumberOfLegs())
-                                                              +
-
+        myBird.setFavouriteInsert(fly);
+        System.out.println("My bird's favourite insect has: " + myBird.getFavouriteInsert().getNumberOfLegs() + " legs.");
     }
 
 }
